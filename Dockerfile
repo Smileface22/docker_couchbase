@@ -1,0 +1,9 @@
+FROM couchbase/server:latest
+
+EXPOSE 8091 8092 8093 11210
+
+ENV CB_REST_USERNAME=admin
+ENV CB_REST_PASSWORD=password
+ENV CB_BUCKET=example
+ENV CB_BUCKET_PASSWORD=bucketpassword
+
